@@ -7,13 +7,14 @@ import postRoutes from './routes/posts.js';
 
 const app = express();
 
-app.use('/posts', postRoutes);
 
 // for image
 app.use(bodyParser.json({ limit: "30mb", extended: "true"}));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: "true"}));
 
 app.use(cors());
+
+app.use('/posts', postRoutes);
 
 const CONNECTION_URL = "mongodb+srv://memories_webdb_admin:Memories_Web0.1@cluster0.jodfl.mongodb.net/?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
