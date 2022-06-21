@@ -1,6 +1,4 @@
-// constants
 import { CREATE, DELETE, UPDATE, FETCH_ALL } from '../constants/actionTypes';
-
 import * as api from '../api';
 
 // Action Creators
