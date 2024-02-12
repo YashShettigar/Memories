@@ -72,7 +72,7 @@ export const updatePost = (id, post) => async (dispatch) => {
 export const deletePost = (id, navigate) => async (dispatch) => {
     try {
         await api.deletePost(id);
-        navigate("/", { replace: true });
+        navigate(0, { replace: true })
         dispatch(postsSliceAction({ type: DELETE, data: id }));
     } catch (error) {
         console.log(error);
