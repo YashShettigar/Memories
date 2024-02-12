@@ -58,7 +58,7 @@ export const postDetailsTheme = createTheme({
                         ...imageSectionStyles,
                         '& .media': mediaStyles
                     },
-                    // '& .recommendedPosts': recommendedPostsStyles
+                    '& .recommendedPosts': recommendedPostsStyles
                 }
             }
         }
