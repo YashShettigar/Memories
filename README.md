@@ -69,6 +69,9 @@ To make it run on a Django server, do the following:
    py manage.py runserver
    ```
    Runs the Django server serving at [http://localhost:8000](http://localhost:8000) .
+3. Before running your `client`, migrate the `api` folder and `index.js` from the `pyserver` branch into your `client/src` folder.\
+   Now, you may start running the `client` folder as usual from the CLI.
+4. If you want to enable Google Authentication, remember to replace the text `"Your Google OAuth2.0 Client ID"` in `client/src/index.js` with your `Google OAuth Client ID`. Also, do the same for your `.env` file in either of the server that you are runnning.
 
 
 ## Learn More
