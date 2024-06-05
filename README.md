@@ -1,6 +1,6 @@
 # Memories
 
-Memories is a React-based web application that enables users to create, update, and delete posts. Users can sign up or log in using custom credentials or their Google account. The app features a dynamic homepage that updates in real-time as users interact with the platform. Posts can include titles, messages, tags, and optional image uploads. Additionally, users have the ability to edit their existing posts during their session. Memories offers a seamless and interactive experience for sharing and managing personal memories.
+Memories is a React-based web application that enables users to create, update, like and delete posts. Users can sign up or log in using custom credentials or their Google account. The app features a dynamic homepage that updates in real-time as users interact with the platform. Posts can include titles, messages, tags, and optional image uploads. Additionally, users have the ability to edit their existing posts during their session. Memories offers a seamless and interactive experience for sharing and managing personal memories.
 
 ## Installation
 
